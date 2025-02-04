@@ -1,0 +1,100 @@
+js is having libraries and frameworks .
+libraries:It is a collection of codes.
+        -has less set of rules,faster
+        -reactjs,jquery
+frameworks:It is collection of libraries.
+        -more set of rules
+        -angular,vuejs
+===============================================================
+Important features of react js:
+1.reactjs is a js library to build rich reusable user interface.
+2.reactjs is faster bcz of virtual DOM.
+3.reactjs follows component based architecture.
+4.reactjs follows unidirectional data flow.
+5.reactjs follows both client and server side rendering
+================================================================
+-react was introduced by facebook in 2011,Jordan Walke.
+-2013,it made it open-source
+-react is free and platform-independent
+-Angular-2009
+==================================================================
+Single page application has only one html file , any changes open in same tab, page refreshing and reloading , modern approach
+Multiple page app has more than one, any changes open in another tab, page refreshing and reloading not possible, traditional approach
+==================================================================
+Virtual DOM:
+Standard def:Virtual DOm is a virtual representation of a UI which is kept in a memory ,later synced with real DOM with the help of a library called "ReactDOM"
+-Updation of real DOM with virtual DOM
+-Diffing algorithm:One to one checking of Updated VDOM and replica of RDOM
+------------------
+-entire process of updating the realDOM with the help of updatedDOM is called reconcialation
+
+===================================================================
+JSX:
+-JSX stands for JavaScript and XML
+-JSX is a js syntax used to create HTML-like markup in the react
+-actual way to create an element in react is a method called as React.createElement("tagname",{property:"value"},content/children)
+-JSX is not a part of react but it is recommendd to use in react.
+=================================================================
+RULES:
+1.Every element irresepective of paired/unpaired tag both must be closed
+ex:h1(paired),input(unpaired)
+2.More than one JSX element is used then they must be wrapped with one parent element
+=================================================================
+JSX expression
+-JSX expression is used to call the variable,mathematical expression inside the element.
+-syntax:<h1>{variable/expression}<h1/>
+=================================================================
+Components:
+-components are the files or modules which consists of js related logics which can be reused
+-components are divided into two types:
+1.Class-based components(CBC)
+2.Functional-based components(FBC)
+------------------------------------------------------------------
+1.Class-based components(CBC)
+-CBC is similar to javascript es6 class
+-CBC are "statefull" component beacus of default state object present inside the class.
+class Person {
+	constructor(name,age){
+		this.name=name;
+		this.age=age;
+}
+}
+class Child extends Person{
+	constructor(name,age,city){
+		super(name,age);
+		this.city=city;
+}
+}
+Syntax:
+class App extends React.component{
+	render(){
+		return(
+			//JSX	
+)	
+}	
+}
+export default App;
+----------------------------------------------------------------
+2.Functional-based components(FBC)
+-FBC are similar to JS function
+-FBC are "stateless" because tere is no state object untill react v 16.8
+syntax:
+function App(){
+return(
+)}
+export default App;
+---------------------------------------
+const App()=>{
+return()}
+export default App;
+NOTE: while creating react components names must be in capital letter
+-extension must be .jsx or.js
+-calling <App/> <App></App>
+==========================================================
+Component composition
+-component composition is used to combine multiple components into single 
+application
+
+
+
+
