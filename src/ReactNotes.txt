@@ -94,6 +94,13 @@ NOTE: while creating react components names must be in capital letter
 Component composition
 -component composition is used to combine multiple components into single 
 application
+=====================================
+Props:
+-props is nothing but a properties similar to htmk attributes
+-props is an object
+-prop is an object used to exchange info/data from parent to children
+
+props.children
 
 
 
