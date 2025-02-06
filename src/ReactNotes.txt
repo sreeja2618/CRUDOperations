@@ -99,9 +99,37 @@ Props:
 -props is nothing but a properties similar to htmk attributes
 -props is an object
 -prop is an object used to exchange info/data from parent to children
+-immutable object
 
 props.children
+it is a special type of prop used to pass the data/components as a prop
+props.drilling
+pass data down to children
 
-
-
+state:
+-mutable object which is used to store/isolate the data inside the 
+component
+class component:
+-class component is having state obj by default
+syntax:
+constructor(){
+        super();
+        this.state={
+            users:["a","b","c"],
+            num:20
+        }
+    }
+-to update state object of a class component we have a method "this.setState()"
+Functional component:
+-by default functional component is stateless because there is not state object
+-in react 16.8 -hooks
+hooks:is a function which implements all the features of class components 
+into functional component.
+basic hooks
+1.useState()
+syntax:const[state,setstate]=usestate(initial value);
+	   state-it will store initialvalue
+	   setState-used to update state value
+2.useEffect()
+3.useContext()
 
