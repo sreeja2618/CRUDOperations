@@ -132,4 +132,13 @@ syntax:const[state,setstate]=usestate(initial value);
 	   setState-used to update state value
 2.useEffect()
 3.useContext()
+---------------------------------------
+Tight coupling:one is depenedent upon another between components
+Light coupling:one is independent with another
+---------------------------------------
+Applying styles for component:
+1.External stylesheet
+2.inline css
+3.module css
+
 

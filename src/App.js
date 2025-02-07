@@ -112,13 +112,18 @@
 import React from 'react'
 import CBCStateex from './stateEx/CBCStateex'
 import FBCStateex from './stateEx/FBCStateex'
-
+import FunctionalComponent from './components/FunctionalComponent'
+import "./components/dd/Styles.css"
+import styles from './myStyle.module.css'
 const App = () => {
   return (
     <div>
       {/* <CBCStateex/>
        */}
-       <FBCStateex/>
+       {/* <FBCStateex/> */}
+       <h1 class="heading">This is on styling class</h1>
+       <h1 class={styles.error}>Error</h1>
+       <FunctionalComponent clgName="MRU" apply={true}/>
     </div>
   )
 }
