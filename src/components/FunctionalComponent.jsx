@@ -9,13 +9,9 @@ const FunctionalComponent = (props) => {
         backgroundColor:'red',
         fontSize:'16px'
     }
-
-
-
-
   return (
     <div>
-        <h1 class={`${applyStyle}font-style`}>welcome!{props.clgName}</h1>
+        <h1 class={`${applyStyle} font-style`}>welcome!{props.clgName}</h1>
         <h1 style={myStyle}>welcome!{props.clgName}</h1>
     </div>
   )

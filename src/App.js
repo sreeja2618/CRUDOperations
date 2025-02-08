@@ -115,15 +115,20 @@ import FBCStateex from './stateEx/FBCStateex'
 import FunctionalComponent from './components/FunctionalComponent'
 import "./components/dd/Styles.css"
 import styles from './myStyle.module.css'
+import Assignment from './Assignment'
+import MyForm from './MyForm'
 const App = () => {
   return (
     <div>
       {/* <CBCStateex/>
        */}
        {/* <FBCStateex/> */}
-       <h1 class="heading">This is on styling class</h1>
+       {/* <h1 class="heading">This is on styling class</h1>
        <h1 class={styles.error}>Error</h1>
-       <FunctionalComponent clgName="MRU" apply={true}/>
+       <FunctionalComponent clgName="MRU" apply={true}/> */}
+       {/* <Assignment/>
+        */}
+        <MyForm/>
     </div>
   )
 }

@@ -140,5 +140,9 @@ Applying styles for component:
 1.External stylesheet
 2.inline css
 3.module css
+---------------------------------------------------------------
+controlled components
+Form handling:
+
 
 

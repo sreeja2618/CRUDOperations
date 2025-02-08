@@ -1,0 +1,36 @@
+.container{
+    text-align: center;
+}
+  .user-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(243, 78, 78);
+    background-color: blue;
+    width: 100%;
+  }
+  .user-text:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+  }
+
+  .user-text.changed {
+    color: rgb(106, 245, 85);
+    background-color: blue;
+    width: 100%;
+
+  }
+  .user-text.changed:hover{
+    color: rgb(13, 13, 13);
+  }
+  .change-btn{
+    background-color:rgb(106, 245, 85);
+    width: 120px;
+    margin:5px;
+    padding:5px;
+
+  }
+  .change-btn:hover{
+    background-color: rgb(127, 254, 205);
+  }
+  
