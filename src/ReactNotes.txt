@@ -133,6 +133,21 @@ syntax:const[state,setstate]=usestate(initial value);
 2.useEffect()
 3.useContext()
 ---------------------------------------
+2.useEffect()
+-it allows developer to make necessary changes or side effcets
+inside the component
+syntax:useEffect(callbackfn,dependency)
+---------------------------------
+Lists and keys
+every listed items from the array should have a 
+unique key prop value so that it can track changes 
+---------------------------------
+React.Fragment
+-this will act as a parent element for jsx element
+and we can also give key prop-index
+-empty fragment(<></>)
+-<React.Fragment>
+
 Tight coupling:one is depenedent upon another between components
 Light coupling:one is independent with another
 ---------------------------------------
@@ -141,8 +156,7 @@ Applying styles for component:
 2.inline css
 3.module css
 ---------------------------------------------------------------
-controlled components
-Form handling:
+
 
 
 

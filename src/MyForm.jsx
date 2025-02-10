@@ -6,7 +6,8 @@ export class MyForm extends Component {
 
     this.state={
       textValue:' ',
-      skillValue:'skill not selected '
+      skillValue:'skill not selected ',
+      emailValue:' '
     }
   }
   changeMessage=(event)=>{
@@ -21,21 +22,31 @@ export class MyForm extends Component {
     })
 
   }
+  changeEmail=(event)=>{
+    this.setState({
+    emailValue:event.target.value
+    })
+
+  }
+
   submitted=(event)=>{
     
-    alert("form is sucussefully submitted"+`${this.state.textValue}${this.state.skillValue}`)
+    alert("form is sucussefully submitted"+`${this.state.textValue}${this.state.skillValue}${this.state.emailValue}`)
     event.preventDefault();
   }
   render() {
     return (
+
       <div class="container">
+       
         <form onSubmit={this.submitted}>
             <label>Student Name:</label>
             <input class="input1" type="text" value={this.state.textValue}
             onChange={this.changeMessage}
             ></input><br />
             <label>Skills</label>
-            <select value={this.state.skillValue} onChange={this.changeSkill}>
+            <select value={this.state.skillValue} onChange={this.changeSkill} 
+            >
               <option>
                   JS
               </option>
@@ -46,8 +57,11 @@ export class MyForm extends Component {
                 
               </option>
             </select><br />
+            <label>Email</label>
+            <input type="email" value={this.state.emailValue} onChange={this.changeEmail}></input>
             <button type="submit">Submit</button>
         </form>
+     
       </div>
     )
   }

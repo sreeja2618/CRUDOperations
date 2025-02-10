@@ -110,13 +110,14 @@
 
 // export default App
 import React from 'react'
-import CBCStateex from './stateEx/CBCStateex'
-import FBCStateex from './stateEx/FBCStateex'
-import FunctionalComponent from './components/FunctionalComponent'
-import "./components/dd/Styles.css"
-import styles from './myStyle.module.css'
-import Assignment from './Assignment'
-import MyForm from './MyForm'
+// import CBCStateex from './stateEx/CBCStateex'
+// import FBCStateex from './stateEx/FBCStateex'
+// import FunctionalComponent from './components/FunctionalComponent'
+// import "./components/dd/Styles.css"
+// import styles from './myStyle.module.css'
+// import Assignment from './Assignment'
+// import MyForm from './MyForm'
+import UseEffectEx from './components/hooksEX/UseEffectEx'
 const App = () => {
   return (
     <div>
@@ -128,7 +129,8 @@ const App = () => {
        <FunctionalComponent clgName="MRU" apply={true}/> */}
        {/* <Assignment/>
         */}
-        <MyForm/>
+        {/* <MyForm/> */}
+        <UseEffectEx/>
     </div>
   )
 }
