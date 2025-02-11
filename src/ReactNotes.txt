@@ -132,12 +132,15 @@ syntax:const[state,setstate]=usestate(initial value);
 	   setState-used to update state value
 2.useEffect()
 3.useContext()
+4.useRef()
 ---------------------------------------
 2.useEffect()
 -it allows developer to make necessary changes or side effcets
 inside the component
 syntax:useEffect(callbackfn,dependency)
 ---------------------------------
+3.useRef()
+-is used to target native or real dom element
 Lists and keys
 every listed items from the array should have a 
 unique key prop value so that it can track changes 
@@ -147,6 +150,9 @@ React.Fragment
 and we can also give key prop-index
 -empty fragment(<></>)
 -<React.Fragment>
+---------------------------------
+
+
 
 Tight coupling:one is depenedent upon another between components
 Light coupling:one is independent with another

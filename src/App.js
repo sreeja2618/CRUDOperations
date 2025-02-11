@@ -117,6 +117,7 @@ import React from 'react'
 // import styles from './myStyle.module.css'
 // import Assignment from './Assignment'
 // import MyForm from './MyForm'
+import RefEx from './components/hooksEX/RefEx'
 import UseEffectEx from './components/hooksEX/UseEffectEx'
 const App = () => {
   return (
@@ -130,7 +131,8 @@ const App = () => {
        {/* <Assignment/>
         */}
         {/* <MyForm/> */}
-        <UseEffectEx/>
+        {/* <UseEffectEx/> */}
+        <RefEx/>
     </div>
   )
 }
