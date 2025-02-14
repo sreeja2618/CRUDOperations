@@ -1,0 +1,22 @@
+#homeBlock{
+    width:100%;
+    margin-top:70px;
+}
+#homeBlock>article{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    border:2px black;
+}
+#homeBlock>article>h1{
+    font-size:36px;
+    font-family: sans-serif;
+
+}
+table,th,td{
+    border:2px solid black;
+    border-radius: collapse;
+    padding:10px;
+
+}
