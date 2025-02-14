@@ -42,12 +42,15 @@ import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Home from './crudcomponents/Home'
 import Edit from './crudcomponents/Edit'
 import Create from './crudcomponents/Create'
+import {ToastContainer} from "react-toastify"
 const App = () => {
   return (
     <BrowserRouter>
+    <ToastContainer/>
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/create" element={<Create/>}/>
+    <Route path="/edit/:id" element={<Edit/>}/>
 
     </Routes>
     </BrowserRouter>
