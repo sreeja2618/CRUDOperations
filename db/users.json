@@ -1,40 +1,10 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "ss",
-      "email": "ss@gmail.com",
-      "phone": "123456789"
-    },
-    {
-      "id": "2",
-      "name": "ss1",
-      "email": "ss1@gmail.com",
-      "phone": "123456789"
-    },
-    {
-      "id": "3",
-      "name": "ss2",
-      "email": "ss2@gmail.com",
-      "phone": "123456789"
-    },
-    {
-      "id": "5c08",
-      "name": "aa",
-      "email": "sreejauplanchiwar72@gmail.com",
-      "phone": "123456789"
-    },
-    {
-      "id": "1f9f",
-      "name": "sd",
-      "email": "sreejauplanchiwar72@gmail.com",
-      "phone": "09059659274"
-    },
-    {
-      "id": "32f4",
-      "name": "ss",
+      "name": "sreeja",
       "email": "2211cs010571@mallareddyuniversity.ac.in",
-      "phone": "9059659274"
+      "phone": "9059659274",
+      "id": "32f4"
     },
     {
       "id": "9448",
@@ -43,10 +13,10 @@
       "phone": "9059659274"
     },
     {
-      "id": "9887",
-      "name": "",
-      "email": "",
-      "phone": ""
+      "id": "b596",
+      "name": "sreeja1",
+      "email": "2211cs010571@mallareddyuniversity.ac.in",
+      "phone": "7036340598"
     }
   ]
 }

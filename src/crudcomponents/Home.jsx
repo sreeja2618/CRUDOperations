@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import "./Home.css"
 import { Link } from 'react-router-dom'
+import { toast } from 'react-toastify'
 
 const Home = () => {
     const[users,setUsers]=useState([])
@@ -15,6 +16,22 @@ const Home = () => {
             console.log(err);
         })
     },[])
+    const deleteUser=id=>{
+        const confirm=window.confirm("Are you sure?");
+        if(confirm){
+            axios.delete("http://localhost:8000/users/"+id)
+            .then(res=>{
+                toast.succsess("deleted successfully")
+                setTimeout(()=>{
+                  window.location.reload(); 
+                },1500)
+            })
+            .catch(err=>
+                toast.error("error")
+            )
+        }
+
+    }
   return (
     <section id="homeBlock">
         <article>
@@ -31,6 +48,7 @@ const Home = () => {
                         <th>name</th>
                         <th>email</th>
                         <th>Phone</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,6 +60,11 @@ const Home = () => {
                                     <td>{user.name}</td>
                                     <td>{user.email}</td>
                                     <td>{user.phone}</td>
+                                    <td>
+                                        <Link to={`/edit/${user.id}`} >Edit</Link>
+                                        <button onClick={()=>deleteUser(user.id)}>Delete</button>
+                                        
+                                    </td>
                                 </tr>
                             )
                         })

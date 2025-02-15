@@ -40,17 +40,4 @@ table,th,td{
     border-radius:2px;
 
 }
-.BackHome{
-    text-decoration:none;
-    padding:5px 5px;
-    background-color: dodgerblue;
-    color: white;
-    border-radius:2px;
-}
-.Submit{
-    text-decoration:none;
-    padding:5px 5px;
-    background-color: dodgerblue;
-    color: white;
-    border-radius:2px;
-}
+
