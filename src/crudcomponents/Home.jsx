@@ -21,7 +21,7 @@ const Home = () => {
         if(confirm){
             axios.delete("http://localhost:8000/users/"+id)
             .then(res=>{
-                toast.succsess("deleted successfully")
+                toast.success("deleted successfully")
                 setTimeout(()=>{
                   window.location.reload(); 
                 },1500)

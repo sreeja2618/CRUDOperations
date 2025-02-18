@@ -191,6 +191,18 @@ npm install json-server -g
 -axios library to fetch the data
 npm install axios
 
+Redux Library:
+
+-redux is a library of js used for state management in react,angular
+,vue js applications
+-redux is more supportive in react,because it follows unidirectiona;
+data flow
+-redux needs to be installed in react	
+		-npm install redux
+-for connecting react and redux we need one more third party library
+called as "react-redux"
+		-npm install react-redux
+
 
 
 
