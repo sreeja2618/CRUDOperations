@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display:grid;
+            height:100vh;
+            grid-template-columns: 15% 85% ;
+            grid-template-rows: 15% 59% 12% 12%;
+            gap:10px;
+            text-decoration: double;
+        
+           
+            
+
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:1/3;
+            grid-row: 1/2;
+            background-color: aquamarine;
+            
+
+        }
+        .leftmenu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:1/2;
+            grid-row: 2/4;
+            background-color: blue;
+
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:2/3;
+            grid-row: 2/3;
+            background-color: rgb(196, 21, 137);
+
+        }
+        .rightmenu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:2/3;
+            grid-row: 3/4;
+            background-color: bisque;
+
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:1/3;
+            grid-row: 4/5;
+            background-color: blueviolet;
+
+        }
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <section class="header">Header</section>
+        <section class="leftmenu">Nav</section>
+        <section class="main">Article</section>
+        <section class="rightmenu">Ads</section>
+        <section class="footer">Footer</section>
+    </section>
+    
+</body>
+</html>

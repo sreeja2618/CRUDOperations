@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display:grid;
+            height:100vh;
+            grid-template-columns: 15% 70% 15%;
+            grid-template-rows: 10% 80% 10%;
+           
+            
+
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:1/4;
+            grid-row: 1/2;
+            background-color: aquamarine;
+
+        }
+        .leftmenu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:1/2;
+            grid-row: 2/3;
+            background-color: blue;
+
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:2/2;
+            grid-row: 2/3;
+            background-color: rgb(196, 21, 137);
+
+        }
+        .rightmenu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:3/4;
+            grid-row: 2/3;
+            background-color: bisque;
+
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-column:1/4;
+            grid-row: 3/4;
+            background-color: blueviolet;
+
+        }
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <section class="header">Header</section>
+        <section class="leftmenu">Leftmenu</section>
+        <section class="main">Main</section>
+        <section class="rightmenu">Rightmenu</section>
+        <section class="footer">Footer</section>
+    </section>
+    
+</body>
+</html>
