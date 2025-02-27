@@ -1,0 +1,20 @@
+SPRING BOOT:
+spring boot is an open source framework which is buiult on top of spring framework
+with the help of springboot we can develop production ready applixation with minimal configuration
+min configuration-less req of hardware and resources
+MVC:
+Model view controller 
+m=>
+v=>UI
+c=>responsible to receive the req of user and process the resp
+
+Annotation:
+Annotations are used to change the behaviour of core java class or a method
+we write annotation with help of "@"
+
+ECART:
+1.AWS s3bucket
+2.MYSQL
+3.Springboot-develop an entire application
+4.reactjs
+
